@@ -1,17 +1,17 @@
 # Just another one Web Crawler
 
 ## Overview
-The crawler starts with a specific URL to visit. It requests this URL and tries to find an input pattern on that page.
+The crawler starts from a specified URL. It requests that URL and searches the page for an input pattern.
 
-The result could be a success or failure. For success result, it counts the occupancies of pattern on that page.
+The result is either a success or a failure. For successful results, it counts occurrences of the pattern on the page.
 
-It identifies all the hyperlinks in the retrieved web pages and adds them to the list of URLs to visit.
+It extracts all hyperlinks from the retrieved pages and adds them to the list of URLs to visit.
 
 ## Input
-Initial Url, number of threads, number of Urls to scan and pattern to search
+Initial URL, number of threads, number of URLs to scan, and pattern to search for
 
 ## Output
-List of Succeed/Failed scanned Urls, occurrences of pattern, and Urls on that page to visit
+List of scanned URLs marked as Succeeded/Failed, occurrence counts for the pattern, and URLs found on each page to visit
 
 ## Environment
 * Qt 5.15.2
