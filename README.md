@@ -1,4 +1,4 @@
-# Just another one Web Crawler
+# Yet another Web Crawler
 
 ## Overview
 The crawler starts from a specified URL. It requests that URL and searches the page for an input pattern.
